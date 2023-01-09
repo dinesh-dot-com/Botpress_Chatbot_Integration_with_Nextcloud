@@ -18,7 +18,7 @@ There you can find your Configured Script URL.
 STEP 3:
 -------
 Create a separate Linux Cli and Build a Sample <html> file and name it index.html.
-Past the Script URL get from the bot press web chat into Body like 
+Paste the Script URL get from the bot press web chat into Body like 
 ![Screenshot (214)](https://user-images.githubusercontent.com/105905278/211250236-37f447dd-3679-423c-bbdb-7c77d2271258.jpg)
 
 
@@ -29,19 +29,19 @@ Past the Script URL get from the bot press web chat into Body like
 
 
 
- Past the path link into the apache config file and host it.
+ Paste the path link into the apache config file and host it.
 
 STEP 4:
 ------
 Login to your nextcloud server and go to the path "/var/www/html/nextcloud/core/templates/layout.user.php"
 ![Screenshot (213)](https://user-images.githubusercontent.com/105905278/211248692-9ef8628f-7e02-45e1-a21b-7dbec99ce5ef.jpg)
 
-and past this code there <p><a href="https://example.com/index.php/apps/external/8"> 
+and paste this code there <p><a href="https://example.com/index.php/apps/external/8"> 
 <img src="https://www.example1/chatbot-marketing.gif" style="width:150px;height:165px;bottom:0;position:fixed;z-index:1;right:20px;"></a></p>
 
 STEP 5:
 -------
-If you want the bot icon to travel everywhere follow the [STEP:4] (or) If you want for a particular path open the "../nextcloud/apps/any_app/templates/index.php or main.php" Follow the path and past the Script in [STEP:4].
+If you want the bot icon to travel everywhere follow the [STEP:4] (or) If you want for a particular path open the "../nextcloud/apps/any_app/templates/index.php or main.php" Follow the path and paste the Script in [STEP:4].
 
 STEP 6:
 -------
@@ -49,7 +49,7 @@ Go to the HTTP-COnfigure file "/var/www/html/nextcloud/lib/public/AppFramework/H
   
 ![Screenshot (212)](https://user-images.githubusercontent.com/105905278/211248462-8cdc812e-2a92-4c41-b925-de3ba78dc7c7.jpg)
 
-Past the Url of the Bot which you Created in [STEP:3] to make it a trusted domain>
+Paste the Url of the Bot which you Created in [STEP:3] to make it a trusted domain>
   
 STEP 7:
 ------
