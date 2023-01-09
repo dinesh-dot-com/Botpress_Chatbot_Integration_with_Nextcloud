@@ -19,12 +19,14 @@ STEP 3:
 -------
 Create a separate Linux Cli and Build a Sample <html> file and name it index.html.
 Past the Script URL get from the bot press web chat into Body like 
+![Screenshot (214)](https://user-images.githubusercontent.com/105905278/211250236-37f447dd-3679-423c-bbdb-7c77d2271258.jpg)
+
 
   <body> 
         <script src="https://example1/webchat/v0/inject.js"></script>
         <script src="https://example2/****-*****-*****-****/webchat/config.js" defer></script>
   </body>
-  ![Screenshot (214)](https://user-images.githubusercontent.com/105905278/211248851-293b2ace-5fbf-4e11-9f7f-4639adb756e6.jpg)
+
 
 
  Past the path link into the apache config file and host it.
