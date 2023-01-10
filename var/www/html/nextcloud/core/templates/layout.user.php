@@ -77,8 +77,8 @@ $getUserAvatar = static function (int $size) use ($_): string {
 				<div id="settings">
 
 
-<p><a href="https://example1.com"> 
-<img src="https://www.examle2.com/blog/wp-content/uploads/2020/11/chatbot-marketing.gif" style="width:150px;height:165px;bottom:0;position:fixed;z-index:1;right:20px;"></a></p>
+<p><a href="Your Domain"> 
+<img src="Image_Src_Url" style="width:150px;height:165px;bottom:0;position:fixed;z-index:1;right:20px;"></a></p>
 
 
 					<div id="expand" tabindex="0" role="button" class="menutoggle"
