@@ -24,7 +24,7 @@ Paste the Script URL get from the bot press web chat into Body like
 
   <body> 
         <script src="https://example1/webchat/v0/inject.js"></script>
-        <script src="https://example2/****-*****-*****-****/webchat/config.js" defer></script>
+        <script src="https://example2/****-*****-*****-****config.js" defer></script>
   </body>
 
 
@@ -36,8 +36,8 @@ STEP 4:
 Login to your nextcloud server and go to the path "/var/www/html/nextcloud/core/templates/layout.user.php"
 ![Screenshot (213)](https://user-images.githubusercontent.com/105905278/211248692-9ef8628f-7e02-45e1-a21b-7dbec99ce5ef.jpg)
 
-and paste this code there <p><a href="https://example.com/index.php/apps/external/8"> 
-<img src="https://www.example1/chatbot-marketing.gif" style="width:150px;height:165px;bottom:0;position:fixed;z-index:1;right:20px;"></a></p>
+and paste this code there <p><a href="https://Your-Domin"> 
+<img src="Your-Image-Src" style="width:150px;height:165px;bottom:0;position:fixed;z-index:1;right:20px;"></a></p>
 
 STEP 5:
 -------
