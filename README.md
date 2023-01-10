@@ -37,9 +37,7 @@ Login to your nextcloud server and go to the path "/var/www/html/nextcloud/core/
 ![Screenshot (213)](https://user-images.githubusercontent.com/105905278/211248692-9ef8628f-7e02-45e1-a21b-7dbec99ce5ef.jpg)
 
 and paste this code there 
-
-<p><a href="Your-Domin"> 
-<img src="Your-Image-Src" style="width:150px;height:165px;bottom:0;position:fixed;z-index:1;right:20px;"></a></p>
+![Screenshot (215)](https://user-images.githubusercontent.com/105905278/211488125-8475d295-7ede-4ea9-a489-7f447a077f5e.jpg)
 
 STEP 5:
 -------
