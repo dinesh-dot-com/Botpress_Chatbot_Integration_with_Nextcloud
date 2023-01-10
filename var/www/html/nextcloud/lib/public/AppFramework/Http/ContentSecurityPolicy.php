@@ -48,9 +48,8 @@ class ContentSecurityPolicy extends EmptyContentSecurityPolicy {
 	protected $strictDynamicAllowed = true;
 	/** @var array Domains from which scripts can get loaded */
 	protected $allowedScriptDomains = [
-		'https://example.com/',
-		'https://www.example1.com/blog/wp-content/uploads/2020/11/chatbot-marketing.gif',
-		'https://nextcloud/apps/dashboard/templates/index.html',
+		'https://Your_Domain/',
+		
 		'\'self\'',
 		'other',
 	];
@@ -63,31 +62,19 @@ class ContentSecurityPolicy extends EmptyContentSecurityPolicy {
 	/** @var array Domains from which CSS can get loaded */
 	protected $allowedStyleDomains = [
 		'\'self\'',
-    'https://example.com/',
-		'https://www.example1.com/blog/wp-content/uploads/2020/11/chatbot-marketing.gif',
-		'https://nextcloud/apps/dashboard/templates/index.html',
-		'\'self\'',
+		'https://Your_Domain/'
 		'other',
 		
 	];
 	/** @var array Domains from which images can get loaded */
 	protected $allowedImageDomains = [
-		'https://example.com/',
-		'https://www.example1.com/blog/wp-content/uploads/2020/11/chatbot-marketing.gif',
-		'https://nextcloud/apps/dashboard/templates/index.html',
-		'\'self\'',
-		'other',
-		'\'self\'',
-  
+		'https://Your_Domain/'
 		'data:',
-		
 		'blob:',
 	];
 	/** @var array Domains to which connections can be done */
 	protected $allowedConnectDomains = [
-	'https://example.com/',
-		'https://www.example1.com/blog/wp-content/uploads/2020/11/chatbot-marketing.gif',
-		'https://nextcloud/apps/dashboard/templates/index.html',
+		'https://Your_Domain/'
 		'\'self\'',
 		'other',
 	,
@@ -96,9 +83,7 @@ class ContentSecurityPolicy extends EmptyContentSecurityPolicy {
 	/** @var array Domains from which media elements can be loaded */
 	protected $allowedMediaDomains = [
 	
-		'https://example.com/',
-		'https://www.example1.com/blog/wp-content/uploads/2020/11/chatbot-marketing.gif',
-		'https://nextcloud/apps/dashboard/templates/index.html',
+		'https://Your_Domain/'
 		'\'self\'',
 		'other',
 		
@@ -107,35 +92,27 @@ class ContentSecurityPolicy extends EmptyContentSecurityPolicy {
 	];
 	/** @var array Domains from which object elements can be loaded */
 	protected $allowedObjectDomains = [
-		'https://example.com/',
-		'https://www.example1.com/blog/wp-content/uploads/2020/11/chatbot-marketing.gif',
-		'https://nextcloud/apps/dashboard/templates/index.html',
+		'https://Your_Domain/'
 		'\'self\'',
 		'other',
 	];
 	/** @var array Domains from which iframes can be loaded */
 	protected $allowedFrameDomains = [
-	'https://example.com/',
-		'https://www.example1.com/blog/wp-content/uploads/2020/11/chatbot-marketing.gif',
-		'https://nextcloud/apps/dashboard/templates/index.html',
+		'https://Your_Domain/'
 		'\'self\'',
 		'other',
 
 	];
 	/** @var array Domains from which fonts can be loaded */
 	protected $allowedFontDomains = [
-		'https://example.com/',
-		'https://www.example1.com/blog/wp-content/uploads/2020/11/chatbot-marketing.gif',
-		'https://nextcloud/apps/dashboard/templates/index.html',
+		'https://Your_Domain/',	
 		'\'self\'',
 		'other',
 		'data:',
 	];
 	/** @var array Domains from which web-workers and nested browsing content can load elements */
 	protected $allowedChildSrcDomains = [
-	'https://example.com/',
-		'https://www.example1.com/blog/wp-content/uploads/2020/11/chatbot-marketing.gif',
-		'https://nextcloud/apps/dashboard/templates/index.html',
+	        'https://Your_Domain/',
 		'\'self\'',
 		'other',
 
@@ -144,18 +121,14 @@ class ContentSecurityPolicy extends EmptyContentSecurityPolicy {
 
 	/** @var array Domains which can embed this Nextcloud instance */
 	protected $allowedFrameAncestors = [
-		'https://example.com/',
-		'https://www.example1.com/blog/wp-content/uploads/2020/11/chatbot-marketing.gif',
-		'https://nextcloud/apps/dashboard/templates/index.html',
+		 'https://Your_Domain/',
 		'\'self\'',
 		'other',
 	];
 
 	/** @var array Domains from which web-workers can be loaded */
 	protected $allowedWorkerSrcDomains = [
-'https://example.com/',
-		'https://www.example1.com/blog/wp-content/uploads/2020/11/chatbot-marketing.gif',
-		'https://nextcloud/apps/dashboard/templates/index.html',
+                'https://Your_Domain/',
 		'\'self\'',
 		'other',
 
@@ -163,9 +136,7 @@ class ContentSecurityPolicy extends EmptyContentSecurityPolicy {
 
 	/** @var array Domains which can be used as target for forms */
 	protected $allowedFormActionDomains = [
-		'https://example.com/',
-		'https://www.example1.com/blog/wp-content/uploads/2020/11/chatbot-marketing.gif',
-		'https://nextcloud/apps/dashboard/templates/index.html',
+		'https://Your_Domain/',
 		'\'self\'',
 		'other',,
 	];
