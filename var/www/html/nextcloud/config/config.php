@@ -1,7 +1,7 @@
 <?php
 $CONFIG = array (
   'instanceid' => 'XXXXXXX',
-  'passwordsalt' => 'sXXXXXXXXXXXXXXXXXXC',
+  'passwordsalt' => 'XXXXXXXXXXXXXXXXXXXX',
   'secret' => 'XXXXXXXXXXXXXXXXXXXXXXXXXX',
   'forcessl' => true,
   'trashbin_retention_obligation' => 'auto,90',
@@ -13,7 +13,7 @@ $CONFIG = array (
   'datadirectory' => '/var/www/html/nextcloud/data',
   'dbtype' => 'mysql',
   'version' => '25.0.2.3',
-  'overwrite.cli.url' => 'https://YOUR DOMAIN/apps/dashboard/templates/index.html',
+  'overwrite.cli.url' => 'https://YOUR DOMAIN/apps/dashboard/templates/',
   'dbname' => 'XXXXXXXXXX',
   'dbhost' => 'localhost',
   'dbport' => '',
@@ -29,4 +29,4 @@ $CONFIG = array (
   'theme' => '',
   'loglevel' => 0,
   'maintenance' => false,
-);
+)
